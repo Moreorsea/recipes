@@ -17,6 +17,8 @@ const getPath = (id = 'new') => {
 }
 
 onMounted(fetchRecipes)
+document.cookie = 'cat=pumkin'
+console.log(document.cookie)
 </script>
 
 <template>
